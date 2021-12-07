@@ -37,7 +37,7 @@ export class HomeComponent implements OnInit {
   ngOnInit() {
     this.adminMode$ = this.store
       .select(getUser)
-      .pipe(switchMap(async (user) => user.role === "admin"));
+      .pipe(switchMap(async (user) => user?.role === "admin"));
     this.reload();
   }
 
