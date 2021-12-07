@@ -11,33 +11,46 @@
 
   <mat-card-actions class="course-actions">
     <a
+      *ngIf="course.certificateUrl"
       color="primary"
       mat-raised-button
       role="button"
       href="{{ course.certificateUrl }}"
       target="_blank"
     >
-      View Certificate
+      View my certificate
     </a>
-
-    <button
-      mat-raised-button
+    <a
+      *ngIf="course.courseUrl"
       color="primary"
-      [routerLink]="['/courses', course.url]"
+      mat-raised-button
+      role="button"
+      href="{{ course.courseUrl }}"
+      target="_blank"
     >
-      View Course
-    </button>
-
-    <button mat-mini-fab color="accent">
-      <mat-icon class="add-course-btn" (click)="editCourse(course)"
-        >edit</mat-icon
+      Course Link
+    </a>
+    <ng-component *ngIf="adminMode; then showAdminPanel"></ng-component>
+    <ng-template #showAdminPanel>
+      <button
+        mat-raised-button
+        color="primary"
+        [routerLink]="['/courses', course.url]"
       >
-    </button>
+        View Course
+      </button>
 
-    <button mat-mini-fab color="warn">
-      <mat-icon class="add-course-btn" (click)="onDeleteCourse(course)"
-        >delete</mat-icon
-      >
-    </button>
+      <button mat-mini-fab color="accent">
+        <mat-icon class="add-course-btn" (click)="editCourse(course)"
+          >edit</mat-icon
+        >
+      </button>
+
+      <button mat-mini-fab color="warn">
+        <mat-icon class="add-course-btn" (click)="onDeleteCourse(course)"
+          >delete</mat-icon
+        >
+      </button>
+    </ng-template>
   </mat-card-actions>
 </mat-card>

@@ -16,5 +16,10 @@
       "dom",
       "ES2017.object"
     ]
+  },
+  "angularCompilerOptions": {
+    "enableI18nLegacyMessageIdFormat": false,
+    "strictInjectionParameters": true,
+    "strictTemplates": true,
   }
 }

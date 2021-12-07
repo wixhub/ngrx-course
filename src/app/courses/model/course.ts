@@ -3,6 +3,7 @@ export interface Course {
   seqNo: number;
   url: string;
   iconUrl: string;
+  courseUrl: string;
   certificateUrl: string;
   courseListIcon: string;
   description: string;
