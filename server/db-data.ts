@@ -23,6 +23,8 @@ export const COURSES: any = {
       "https://angular-university.s3-us-west-1.amazonaws.com/course-images/ngrx-v2.png",
     certificateUrl:
       "https://www.udemy.com/certificate/UC-23180f28-b52b-48ff-9980-35cd39534715/",
+    codeUrl: "https://github.com/wixhub/ngrx-course/",
+    demoUrl: "https://wixhub.github.io/certificates/index.html",
     courseUrl: "https://www.udemy.com/course/ngrx-course/",
     instructor: "Angular University",
     category: "BEGINNER",
@@ -40,6 +42,8 @@ export const COURSES: any = {
       "https://s3-us-west-1.amazonaws.com/angular-university/course-images/angular-core-in-depth-small.png",
     certificateUrl:
       "https://www.udemy.com/certificate/UC-46e42be0-8af3-48a2-aaf5-1d532efc54b2/",
+    codeUrl: "",
+    demoUrl: "",
     courseUrl: "https://www.udemy.com/course/angular-course/",
     instructor: "Angular University",
     lessonsCount: 10,
@@ -57,6 +61,8 @@ export const COURSES: any = {
       "https://s3-us-west-1.amazonaws.com/angular-university/course-images/rxjs-in-practice-course.png",
     certificateUrl:
       "https://www.udemy.com/certificate/UC-09463777-a04d-43dc-89c9-1d093e840f62/",
+    codeUrl: "",
+    demoUrl: "",
     courseUrl: "https://www.udemy.com/course/rxjs-course/",
     instructor: "Angular University",
     category: "BEGINNER",
@@ -74,6 +80,8 @@ export const COURSES: any = {
       "https://angular-university.s3-us-west-1.amazonaws.com/course-images/angular-forms-course-small.jpg",
     certificateUrl:
       "https://www.udemy.com/certificate/UC-7600f7de-b654-4ab8-9263-966e17c3fa56/",
+    codeUrl: "",
+    demoUrl: "",
     courseUrl: "https://www.udemy.com/course/angular-forms-course/",
     instructor: "Angular University",
     category: "BEGINNER",
@@ -89,6 +97,8 @@ export const COURSES: any = {
     iconUrl:
       "https://s3-us-west-1.amazonaws.com/angular-university/course-images/serverless-angular-small.png",
     certificateUrl: "", //"https://www.udemy.com/certificate/",
+    codeUrl: "",
+    demoUrl: "",
     courseUrl: "https://www.udemy.com/course/firebase-course/",
     instructor: "Angular University",
     lessonsCount: 10,
@@ -122,6 +132,8 @@ export const COURSES: any = {
     iconUrl:
       "https://s3-us-west-1.amazonaws.com/angular-university/course-images/angular-testing-small.png",
     certificateUrl: "",
+    codeUrl: "",
+    demoUrl: "",
     courseUrl: "https://www.udemy.com/course/angular-testing-course/",
     instructor: "Angular University",
     category: "BEGINNER",
@@ -138,6 +150,8 @@ export const COURSES: any = {
     iconUrl:
       "https://s3-us-west-1.amazonaws.com/angular-university/course-images/security-cover-small-v2.png",
     certificateUrl: "",
+    codeUrl: "",
+    demoUrl: "",
     courseUrl: "https://www.udemy.com/course/angular-security/",
     instructor: "Angular University",
     category: "ADVANCED",
@@ -154,6 +168,8 @@ export const COURSES: any = {
     iconUrl:
       "https://s3-us-west-1.amazonaws.com/angular-university/course-images/angular-pwa-course.png",
     certificateUrl: "",
+    codeUrl: "",
+    demoUrl: "",
     courseUrl: "https://www.udemy.com/course/angular-pwa-course/",
     instructor: "Angular University",
     category: "ADVANCED",
@@ -170,6 +186,8 @@ export const COURSES: any = {
     iconUrl:
       "https://angular-academy.s3.amazonaws.com/thumbnails/advanced_angular-small-v3.png",
     certificateUrl: "",
+    codeUrl: "",
+    demoUrl: "",
     courseUrl: "https://www.udemy.com/course/angular-advanced-masterclass/",
     instructor: "Angular University",
     category: "ADVANCED",
@@ -185,6 +203,8 @@ export const COURSES: any = {
     iconUrl:
       "https://angular-academy.s3.amazonaws.com/thumbnails/typescript-2-small.png",
     certificateUrl: "",
+    codeUrl: "",
+    demoUrl: "",
     courseUrl: "https://www.udemy.com/course/complete-typescript-2-course/",
     instructor: "Angular University",
     category: "BEGINNER",
@@ -200,6 +220,8 @@ export const COURSES: any = {
     iconUrl:
       "https://s3-us-west-1.amazonaws.com/angular-academy/blog/images/rxjs-reactive-patterns-small.png",
     certificateUrl: "",
+    codeUrl: "",
+    demoUrl: "",
     courseUrl: "https://www.udemy.com/course/rxjs-reactive-angular-course/",
     instructor: "Angular University",
     category: "BEGINNER",
@@ -215,6 +237,8 @@ export const COURSES: any = {
     iconUrl:
       "https://s3-us-west-1.amazonaws.com/angular-university/course-images/material_design.png",
     certificateUrl: "",
+    codeUrl: "",
+    demoUrl: "",
     courseUrl: "https://www.udemy.com/course/angular-material-course/",
     instructor: "Angular University",
     category: "BEGINNER",
@@ -228,6 +252,8 @@ export const COURSES: any = {
       "It's like Angular but for the backend! Build a modern REST backend with Typescript and the familiar Angular API",
     iconUrl: "https://img-c.udemycdn.com/course/240x135/2580082_66b1.jpg",
     certificateUrl: "",
+    codeUrl: "",
+    demoUrl: "",
     courseUrl: "https://www.udemy.com/course/nestjs-course/",
     instructor: "Angular University",
     category: "BEGINNER",
@@ -241,6 +267,8 @@ export const COURSES: any = {
       "Build your own online eCommerce store and subscription membership website with Stripe, Firebase, Node & Express",
     iconUrl: "https://img-b.udemycdn.com/course/240x135/2668274_0e22.jpg",
     certificateUrl: "",
+    codeUrl: "",
+    demoUrl: "",
     courseUrl: "https://www.udemy.com/course/stripe-course/",
     instructor: "Angular University",
     category: "BEGINNER",
@@ -254,6 +282,8 @@ export const COURSES: any = {
       "Build large-scale Angular 12 Single Page Applications (SPAs) with the powerful Angular Router",
     iconUrl: "https://img-c.udemycdn.com/course/240x135/3202558_8ffd.jpg",
     certificateUrl: "",
+    codeUrl: "",
+    demoUrl: "",
     courseUrl: "https://www.udemy.com/course/angular-router-course/",
     instructor: "Angular University",
     category: "BEGINNER",
@@ -267,6 +297,8 @@ export const COURSES: any = {
       "Learn Angular Universal (Angular 12), optimize your application performance, optimize it for SEO and Social Media",
     iconUrl: "https://img-c.udemycdn.com/course/240x135/1572898_a931_3.jpg",
     certificateUrl: "",
+    codeUrl: "",
+    demoUrl: "",
     courseUrl: "https://www.udemy.com/course/angular-universal-course/",
     instructor: "Angular University",
     category: "BEGINNER",
@@ -281,6 +313,8 @@ export const COURSES: any = {
     iconUrl: "https://img-c.udemycdn.com/course/240x135/1362782_0ea6.jpg",
     certificateUrl:
       "https://www.udemy.com/certificate/UC-2dc5ac70-a39a-484c-86f6-e299908b6ac6/",
+    codeUrl: "",
+    demoUrl: "",
     courseUrl: "https://www.udemy.com/course/angular-components-like-a-pro/",
     instructor: "Enrique Oriol",
     category: "BEGINNER",
@@ -295,6 +329,8 @@ export const COURSES: any = {
     iconUrl: "https://img-c.udemycdn.com/course/240x135/2580974_d53e.jpg",
     certificateUrl:
       "https://www.udemy.com/certificate/UC-029781f4-9a95-47c8-b894-244ecbe33223/",
+    codeUrl: "",
+    demoUrl: "",
     courseUrl: "https://www.udemy.com/course/angular-application-architecture/",
     instructor: "Danil Chigirev",
     category: "BEGINNER",
@@ -308,6 +344,8 @@ export const COURSES: any = {
       "JavaScript for Beginners; In Depth Training to truly Learn JavaScript; Gets You Started as a JavaScript Programmer",
     iconUrl: "https://img-c.udemycdn.com/course/240x135/977810_501b_4.jpg",
     certificateUrl: "",
+    codeUrl: "",
+    demoUrl: "",
     courseUrl:
       "https://www.udemy.com/course/learn-modern-javascript-getting-started/",
     instructor: "Steven Hancock",
@@ -322,6 +360,8 @@ export const COURSES: any = {
       "In Depth JavaScript Training for Mastering Important Patterns, the Power of Functions, OOP Concepts, JavaScript Projects",
     iconUrl: "https://img-c.udemycdn.com/course/240x135/1072420_717d_5.jpg",
     certificateUrl: "",
+    codeUrl: "",
+    demoUrl: "",
     courseUrl:
       "https://www.udemy.com/course/learn-modern-javascript-advanced-topics/",
     instructor: "Steven Hancock",
@@ -336,6 +376,8 @@ export const COURSES: any = {
       "SASS - Learn SASS, the most popular CSS Extension. Build modern and beautiful projects using SASS and lots of CSS",
     iconUrl: "https://img-c.udemycdn.com/course/240x135/2031086_e14b_2.jpg",
     certificateUrl: "",
+    codeUrl: "",
+    demoUrl: "",
     courseUrl:
       "https://www.udemy.com/course/sass-the-complete-sass-course-css-preprocessor/",
     instructor: "Code And Create",
@@ -350,6 +392,8 @@ export const COURSES: any = {
       "Learn how to use dynamic Styles and powerful Animations to create beautiful Angular Apps",
     iconUrl: "https://img-c.udemycdn.com/course/240x135/1145430_68e5.jpg",
     certificateUrl: "",
+    codeUrl: "",
+    demoUrl: "",
     courseUrl:
       "https://www.udemy.com/course/angular-styling-animations-for-angular-2-and-angular-4/",
     instructor: "Maximilian Schwarzmüller",
