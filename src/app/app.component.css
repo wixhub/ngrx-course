@@ -8,10 +8,15 @@ main {
 
 .menu-button {
   background: rgba(255, 170, 0, 0.76);
+  text-decoration: none;
   color: white;
   border: none;
   cursor: pointer;
   outline: none;
+}
+
+mat-icon {
+  padding: 7px 0 0 5px;
 }
 
 .spinner-container {

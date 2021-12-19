@@ -5,7 +5,7 @@ import { AppComponent } from "./app.component";
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { MatMenuModule } from "@angular/material/menu";
 import { MatIconModule } from "@angular/material/icon";
-
+import { MatCardModule } from "@angular/material/card";
 import { MatListModule } from "@angular/material/list";
 import { MatSidenavModule } from "@angular/material/sidenav";
 import { MatToolbarModule } from "@angular/material/toolbar";
@@ -22,13 +22,17 @@ import { EffectsModule } from "@ngrx/effects";
 import { EntityDataModule } from "@ngrx/data";
 import { MatProgressSpinnerModule } from "@angular/material/progress-spinner";
 import { reducers, metaReducers } from "./reducers";
-import { AboutComponent } from './about/about.component';
+import { AboutComponent } from "./about/about.component";
 
 const routes: Routes = [
   {
     path: "",
     redirectTo: "courses",
     pathMatch: "full",
+  },
+  {
+    path: "about",
+    component: AboutComponent,
   },
   {
     path: "login",
@@ -49,6 +53,7 @@ const routes: Routes = [
     HttpClientModule,
 
     MatMenuModule,
+    MatCardModule,
     MatIconModule,
     MatSidenavModule,
     MatProgressSpinnerModule,
