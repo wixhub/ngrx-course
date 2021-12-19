@@ -5,6 +5,8 @@ export interface Course {
   iconUrl: string;
   courseUrl: string;
   certificateUrl: string;
+  codeUrl: string;
+  demoUrl: string;
   courseListIcon: string;
   description: string;
   longDescription?: string;

@@ -18,8 +18,27 @@
       href="{{ course.certificateUrl }}"
       target="_blank"
     >
-      View my certificate
+      Certificate
     </a>
+    <a
+      *ngIf="course.codeUrl"
+      color="primary"
+      mat-raised-button
+      role="button"
+      href="{{ course.codeUrl }}"
+      target="_blank"
+    >
+      Code
+    </a>
+    <a
+      *ngIf="course.demoUrl"
+      color="primary"
+      mat-raised-button
+      role="button"
+      href="{{ course.demoUrl }}"
+      target="_blank"
+      >Demo</a
+    >
     <a
       *ngIf="course.courseUrl"
       color="primary"
@@ -28,7 +47,7 @@
       href="{{ course.courseUrl }}"
       target="_blank"
     >
-      Course Link
+      Udemy
     </a>
     <ng-component *ngIf="adminMode; then showAdminPanel"></ng-component>
     <ng-template #showAdminPanel>
